@@ -1,10 +1,10 @@
 import React from "react";
-import Search from "./Search";
-import StyledInputBase from "./StyledInputBase";
-import SearchIconWrapper from "./SearchIconWraper";
+import Search from "../SearchingComponents/Search";
+import StyledInputBase from "../SearchingComponents/StyledInputBase";
+import SearchIconWrapper from "../SearchingComponents/SearchIconWraper";
 import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
-import MyPosts from "./MyPosts";
+import MyPosts from "../PostsComponents/MyPosts";
 const Profile = () => {
   return (
     <div className='Profile'><img src='https://answit.com/wp-content/uploads/2017/01/full-hd.jpg'></img>
